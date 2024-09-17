@@ -35,7 +35,7 @@ def getWebDriver():
         p = os.path.join(tempfile.gettempdir(), 'imageraider')
         if not os.path.isdir(p):
             os.makedirs(p)
-        profile = webdriver.FirefoxProfile()
+        profile = webdriver.FirefoxOptions()
         profile.set_preference('browser.download.folderList', 2) # custom location
         profile.set_preference('browser.download.manager.showWhenStarting', False)
         profile.set_preference('browser.download.dir', p)

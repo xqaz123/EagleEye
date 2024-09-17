@@ -126,6 +126,8 @@ $ chmod +x /path/to/geckodriver
 
 Note: The `geckodriver` prefers to be in your path so wherever you do set it up you will likely need to setup a link to somewhere in your PATH (or add it to your PATH).
 
+Download geckodrivers from https://github.com/mozilla/geckodriver/releases
+
 Example:
 ```
 $ sudo ln -s /path/to/geckodriver /usr/local/bin/geckodriver
@@ -172,6 +174,18 @@ $ python3 eagle-eye.py -h
 ```
 
 *The ImageRaider Reverse Image Search can take some minutes 1-15 Minutes depending on the count of Images*
+
+## ⛏️ Recommended env environment to use EagleEye/Repository/entry
+```
+$python3 -m venv myenv
+$source myenv/bin/activate
+```
+Install the required libraries inside the virtual environment:
+```
+$pip install attrs twisted pyee pyppeteer requests-html
+```
+
+
 
 
 ## TODO <a name = "todo"></a>

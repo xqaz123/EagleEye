@@ -3,4 +3,11 @@ opencv-python
 selenium
 face_recognition
 WeasyPrint
+attrs
+lxml[html_clean]
+twisted
+pyee
+pyppeteer
 requests-html
+cmake
+dlib
