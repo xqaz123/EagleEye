@@ -34,6 +34,7 @@ class FaceRecog:
                 delim = '\\'
             console.subtask('Loading {0}'.format(p_str.split(delim)[1]))
             im = face_recognition.load_image_file(p_str)
+            encoding = face_recognition.face_encodings(im, num_jitters=1)
             for e in encoding:
                 self.known_face_encodings.append(e)
                 self.known_face_names.append(label)
