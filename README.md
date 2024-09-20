@@ -190,7 +190,8 @@ $pip install attrs twisted pyee pyppeteer requests-html
 
 ## TODO <a name = "todo"></a>
 * Implement the Chrome Webdriver
-* To fix blur images downloaded(facebook), gives error when run with face_recognition
+* To implement another method for facebook.py to get HD images for face recognition for Accuracy.
+* To fix google and other grabber scrripts xpaths.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 - [Python](https://www.python.org/) - Language
