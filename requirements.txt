@@ -5,7 +5,7 @@ face-recognition-models
 WeasyPrint
 attrs
 lxml
-lxml[html_clean]
+lxml-html-clean
 twisted
 pye
 pyppeteer
